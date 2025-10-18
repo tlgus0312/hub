@@ -22,7 +22,10 @@
 ## 📁 데이터 구성
 - 직접 촬영한 식물 잎 사진으로 데이터셋 구축  
 - 각 식물별 대표 잎 1장을 선정한 뒤, 다양한 조명 조건(실내 조명 / 자연광)에서 촬영  
-- 조명, 배경, 각도, 거리 등 다양한 환경 요인을 반영하여 모델의 일반화 성능 확보  
+- 조명, 배경, 각도, 거리 등 다양한 환경 요인을 반영하여 모델의 일반화 성능 확보
+- 100장 100장
+  <img width="1512" height="642" alt="image" src="https://github.com/user-attachments/assets/eccc50a6-d7a7-4b10-a21c-3a10723b8b3a" />
+  
 
 ## ⚙️ 전처리 및 특징 추출
 - OpenCV를 활용한 이미지 리사이즈, 색상 보정, 노이즈 제거 수행  
@@ -46,6 +49,8 @@
 > 최종 분류 모델로 선택하였습니다.
 
 ---
+<img width="1600" height="751" alt="image" src="https://github.com/user-attachments/assets/74653022-d8e9-4727-81fe-701010b59129" />
+
 
 ## 📈 최종 성능
 - **훈련 정확도:** 97.0%  
@@ -76,5 +81,6 @@
 - 직접 촬영한 이미지 데이터를 통해 조명 환경 변화에 대응 가능한 식물 인식 모델을 구현  
 - SVM 대비 Logistic Regression이 과적합 위험이 낮고 안정적인 성능을 보여 최종 채택  
 - PCA 기반 차원 축소로 학습 효율과 정확도를 동시에 확보  
+<img width="1501" height="771" alt="image" src="https://github.com/user-attachments/assets/52e28824-2bcf-404b-8f3b-7d295bf86798" />
 
 
